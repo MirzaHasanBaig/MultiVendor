@@ -1,0 +1,116 @@
+.App {
+    text-align: center;
+}
+
+.footer-newsletter .btn {
+    border: 1px solid white !important;
+}
+
+.login-popup{
+    width: 100% !important;
+}
+.sale-banner .banner-content {
+    padding: 0px 20px !important;
+}
+
+.product.product-cart {
+    align-items: flex-start !important;
+    max-height: 100px;
+}
+
+.SlideButton:hover {
+    color: white;
+    background-color: #F28C28;
+}
+
+.product-media img {
+    height: 220px;
+}
+
+.footer:hover {
+    color: orange !important;
+}
+
+.footer-top .widget-body {
+    color: white !important;
+}
+
+.copyright {
+    color: white !important;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.payment-label {
+    color: white !important;
+}
+
+.widget-title {
+    color: white !important;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.header-search.hs-expanded .select-box::before {
+    display: none;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.sale-banner {
+    margin: 3rem 0 !important;
+}
+#category option:hover {
+    background-color: rgb(255, 100, 28) !important;
+}
+
+#category:focus {
+    border-color: none;
+    padding: none;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+#category option {
+    font-size: 14px;
+}
+
+.select-selected {
+    background-color: orange;
+}
+
+#category {
+    font-size: 14px !important;
+}
+
+input:active {
+    outline: none !important;
+}
+
+select:focus {
+    outline: none !important;
+}

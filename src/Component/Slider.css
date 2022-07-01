@@ -1,0 +1,176 @@
+.SlideButton:hover{
+    color: white !important;
+}
+.SlideButton{
+    width: fit-content;
+}
+.Active {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.slideInLeft {
+    position: relative;
+    background-color: transparent;
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    overflow: hidden;
+}
+
+.slideInBottom {
+    position: relative;
+    background-color: transparent;
+    animation-name: slideInBottom;
+    animation-duration: 2s;
+    overflow: hidden;
+}
+
+.slideInTop {
+    position: relative;
+    animation-name: slideInTop;
+    animation-duration: 2s;
+    overflow: hidden;
+}
+
+.slideInRight {
+    position: relative;
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    overflow: hidden;
+}
+
+.slideInLeftAcive {
+    opacity: 1;
+}
+
+@keyframes slideInTop {
+    0% {
+        left: 0px;
+        top: -1000px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    50% {
+        left: 0px;
+        top: -101px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    51% {
+        left: 0px;
+        top: -100spx;
+        opacity: 1;
+        overflow: hidden;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        overflow: hidden;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        left: -2000px;
+        top: 0px;
+        opacity: 0;
+        overflow: hidden;
+        
+    }
+    50% {
+        left: -201px;
+        top: 0px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    51% {
+        left: -200px;
+        top: 0spx;
+        opacity: 1;
+        overflow: hidden;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        overflow: hidden;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        left: 0px;
+        top: 1000px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    50% {
+        left: 0px;
+        top: 101px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    51% {
+        left: 0px;
+        top: 100spx;
+        opacity: 1;
+        overflow: hidden;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        overflow: hidden;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        left: 2000px;
+        top: 0px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    50% {
+        left: 201px;
+        top: 0px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    51% {
+        left: 200px;
+        top: 0px;
+        opacity: 1;
+        overflow: hidden;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        opacity: 1;
+        overflow: hidden;
+    }
+}
+
+.fadeOut {
+    position: relative;
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+
+.fadeOutActive {
+    opacity: 0;
+    overflow: hidden;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        overflow: hidden;
+    }
+    100% {
+        opacity: 0;
+        overflow: hidden;
+    }
+}

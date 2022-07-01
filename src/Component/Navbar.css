@@ -1,0 +1,22 @@
+.bg-nav {
+    background-color: #0F1111;
+    color: white;
+    font-size: 12px;
+}
+*{
+    font-size: 12px;
+}
+.cart{
+    width: 40px !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+sup {
+    vertical-align: super !important;
+    background-color: white;
+    font-size: 16px !important; 
+  }
+
+input:focus{
+    outline:2px solid #febd69;
+}
